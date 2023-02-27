@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Button</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="center">
+        <form>
+            <div id="mmm">
+                <h1>LOG IN</h1>
+            </div>
+            <p>USER ID</p>
+            <input type="text" placeholder="YOUR ID">
+            <div class="range-group">
+                <div class="range-slider">
+                    <p>your age</p>
+                    <input type="range" id="send" oninput="recieve.value=send.value">
+                </div>
+                <input type="button" id="recieve" value="0" min="0" max="100">
+            </div>
+            <p>PASSWORD</p>
+
+            <input type="PASSWORD" placeholder=" ENTER PASSWORD" id="show"> 
+            <br><br>
+            <div>
+                <div id="checkbox">
+                    <input type="checkbox" onclick="rakesh()">
+                </div>
+                <label for="show">SHOW PASSWORD</label>
+            </div>
+             
+            <input type="submit" placeholder="login">
+		</form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
